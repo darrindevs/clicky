@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name": "Robot1",
+    "image": "https://robotsss.s3-us-west-1.amazonaws.com/robot1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Robot2",
+    "image": "https://robotsss.s3-us-west-1.amazonaws.com/robot2.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Robot3",
+    "image": "https://robotsss.s3-us-west-1.amazonaws.com/robot3.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Robot4",
+    "image": "https://robotsss.s3-us-west-1.amazonaws.com/robot4.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Robot5",
+    "image": "https://robotsss.s3-us-west-1.amazonaws.com/robot5.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Robot6",
+    "image": "https://robotsss.s3-us-west-1.amazonaws.com/robot6.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Robot7",
+    "image": "https://robotsss.s3-us-west-1.amazonaws.com/robot7.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Robot8",
+    "image": "https://robotsss.s3-us-west-1.amazonaws.com/robot8.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Robot9",
+    "image": "https://robotsss.s3-us-west-1.amazonaws.com/robot9.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Robot10",
+    "image": "https://robotsss.s3-us-west-1.amazonaws.com/robot10.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Robot11",
+    "image": "https://robotsss.s3-us-west-1.amazonaws.com/robot11.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "Robot12",
+    "image": "https://robotsss.s3-us-west-1.amazonaws.com/robot13.jpeg"
+  }
+  
+]
