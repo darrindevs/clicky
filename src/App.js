@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Card from "./components/Card";
+import Wrapper from "./components/Wrapper";
+import Header from "./components/Header";
+//todo import the json objects 
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+//todo create the app class to extend the component and create state
+class App extends Component {
+  // do the work 
+  };
 
+//todo render the cards 
+
+//✅ export App 
 export default App;
