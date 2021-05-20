@@ -1,8 +1,21 @@
-.title {
+.header {
   width: 100%;
-  text-align: center;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
-  margin-bottom: 50px;
+  color: white;
+  margin-bottom: 10px;
 }
+
+.title {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 36px;
+  float: left;
+}
+
+.scores {
+  font-size: 22px;
+  float: right;
+}
+
+.small {
+  font-size:;
+}
+
