@@ -5,41 +5,33 @@ import Header from "./components/Header";
 import robots from "./robots.json";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
-  state = {
-    robots: robots
-  };
+//todo track the state of clicked cards
+state = {
+  robots,
+  score: 0,
+  highscore: 0
+};
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const robots = this.state.robots.filter(robot => robot.id === id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ robots: robots });
-  };
+//✅todo increment the score when cards clicked
+clickCount = () => {
+  //use the setState method to update a component's state
+  this.setState({ score: this.state.score + 1 });
+};
 
-  //todo track the state of clicked cards
+//todo display the score + high score in the header 
+//todo style the header 
 
-  //todo increment the score when cards clicked
-
-  //todo shuffle the cards after a card is clicked
-
-
-  //✅ todo display the score + high score in the header 
-
-  //todo style the header 
-
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  // Map over this.state.robots and render a Card component for each robot object
   render() {
     return (
       <Wrapper>
-        <Header />
-        {this.state.robots.map(robot => (
+        <Header score={this.state.score} highscore={this.state.highscore}>Click the Robots!</Header>
+        {this.state.robots.map(card => (
           <Card
-            countRobot={this.countRobot}
-            id={robot.id}
-            key={robot.id}
-            name={robot.name}
-            image={robot.image}
+            clickCount={this.clickCount}
+            id={card.id}
+            key={card.id}
+            image={card.image}
           />
         ))}
       </Wrapper>
