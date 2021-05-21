@@ -35,8 +35,6 @@ clickCount = (id) => {
   }
 };
 
-//todo display the score + high score in the header 
-//todo style the header 
 
   // Map over this.state.robots and render a Card component for each robot object
   render() {
