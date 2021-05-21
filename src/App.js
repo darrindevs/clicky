@@ -24,7 +24,7 @@ clickCount = (id) => {
       }
     );
     //and alert user game over 
-    alert(`Oops! Game over! Your score: ${this.state.score}`);
+    alert(`Sad Robot! Game over! Your score: ${this.state.score}`);
   } else {
   //otherwise keep track of newly clicked in the state and increment 
   var newClicked = this.state.clicked;
